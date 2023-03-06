@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 20px;
+}
+p{
+    padding-top: 20px;
+}
+a{
+    color: #041E42;
+}
+.btn, .btn-outline-primary, .btn-sm, .btn-block, .mb-1{
+    background-color: none !important;
+    color: #041E42 !important;
+    border-color: #041E42 !important;
+    border-radius: 1px !important;
+    width: 100%;
+    padding-block: 10px !important;
+}
+button:hover {
+    background-color: #041E42 !important;
+    color: #FFC72C !important;
+    border-color: #FFC72C !important;
+    border-radius: 1px !important;
+}
+
+.navbar, .navbar-expand-lg {
+  background-color: #FFC72C;
+  height: 60px;
+  color: #041E42;
+}
+.navbar a:hover, .navbar-expand-lg a:hover {
+  color: #041E42;
+}
