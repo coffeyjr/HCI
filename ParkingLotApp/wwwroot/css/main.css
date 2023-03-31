@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: #0000000d;
+}
+footer {
+    background-color: #0000000d;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.navbar-brand{
+    margin-right: 0;
+    padding: 0 1em;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar .navbar-na .nav-link{
+    color: #041E42;
+    font-size: 1.1em;
+    padding: 5em 1em;
+}
+@media screen and (min-width:992px) {
+    .navbar-brand img{
+        width: 75px;
+    }
+    .navbar-brand{
+        margin-right: 0;
+        padding: 0 1em;
+    }
+}
