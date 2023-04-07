@@ -36,6 +36,15 @@ namespace ParkingLotApp.Controllers
         }
 
         /// <summary>
+        /// Returns a view for the Faq page. The URL route is "/Home/Faq".
+        /// </summary>
+        /// <returns>A ViewResult for the "Faq" view</returns>
+        public IActionResult Faq()
+        {
+            return View();
+        }
+
+        /// <summary>
         /// Returns a view for the Error page. The URL route is "/Home/Error".
         /// </summary>
         /// <returns>A ViewResult for the "Error" view</returns>
